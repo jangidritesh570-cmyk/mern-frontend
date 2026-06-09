@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:4000',
+        target: 'https://student-management-system-9ypu.onrender.com/api/v1',
         changeOrigin: true,
       }
     }
